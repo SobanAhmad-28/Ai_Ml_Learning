@@ -24,7 +24,10 @@ Ai_Ml_Learning/
 ├── notebooks/
 │   ├── day1/
 │   │   ├── lec_1_python_fundamentals_part1.ipynb    # Print, Input, Variables, Data Types & Operators
-│   │   └── assignment_1_python_fundamentals.ipynb   # 10 Solved Assignment Problems
+│   │   └── assignment_1_python_fundamentals.ipynb   # 10 Solved Assignment 1 Problems
+│   ├── day2/
+│   │   ├── lec_2_python_fundamentals_part2.ipynb    # Conditionals, Loops, Range & Functions
+│   │   └── assignment_2_python_fundamentals.ipynb   # 10 Solved Assignment 2 Problems
 │   └── ...                                          # Future day-wise lecture notebooks
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
@@ -37,7 +40,7 @@ Ai_Ml_Learning/
 ## 🛠️ Tech Stack & Environment
 
 - **Language:** Python (3.11+)
-- **Environment:** Jupyter Notebook (Anaconda Distribution)
+- **Environment:** JupyterLab / Jupyter Notebook (Anaconda Distribution)
 - **Core Libraries (Active & Upcoming):**
   - Data Manipulation: `NumPy`, `Pandas`
   - Visualization: `Matplotlib`, `Seaborn`
@@ -55,13 +58,13 @@ git clone https://github.com/SobanAhmad-28/Ai_Ml_Learning.git
 cd Ai_Ml_Learning
 ```
 
-### 2. Launch Jupyter Notebook
+### 2. Launch JupyterLab
 If using Windows with Anaconda installed:
 - Simply double-click `start_jupyter.bat` inside the root directory.
 
 Or run manually via terminal:
 ```bash
-jupyter notebook
+jupyter lab
 ```
 
 ### 3. Sync Daily Work to GitHub
@@ -78,7 +81,8 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | :--- | :--- | :---: | :--- |
 | **Day 1: Part 1** | Python Fundamentals (Input/Output, Types, Operators) | ✅ Completed | [`lec_1_python_fundamentals_part1.ipynb`](notebooks/day1/lec_1_python_fundamentals_part1.ipynb) |
 | **Day 1: Assign** | Assignment 1 (10 Practical Problems Solved) | ✅ Completed | [`assignment_1_python_fundamentals.ipynb`](notebooks/day1/assignment_1_python_fundamentals.ipynb) |
-| **Day 2+** | Python Fundamentals Part 2 & Flow Control | ⏳ Upcoming | `notebooks/day2/` |
+| **Day 2: Part 2** | Conditionals, Loops, Controls, Range & Functions | ✅ Completed | [`lec_2_python_fundamentals_part2.ipynb`](notebooks/day2/lec_2_python_fundamentals_part2.ipynb) |
+| **Day 2: Assign** | Assignment 2 (10 Logic & Function Problems Solved) | ✅ Completed | [`assignment_2_python_fundamentals.ipynb`](notebooks/day2/assignment_2_python_fundamentals.ipynb) |
 | **Day 3+** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/day3/` |
 | **Day 4+** | Pandas DataFrames & Exploratory Data Analysis (EDA) | ⏳ Upcoming | `notebooks/day4/` |
 
