@@ -1,0 +1,39 @@
+﻿# Jupyter Notebooks Checkpoints & Autosave Cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*//.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# Agent System Logs & Cache
+.system_generated/
+.agents/
+
+# Internal Agent Configs (GitHub par leak nahi honi chahiye)
+AGENTS.md
+GEMINI.md
+.gateguard.yml
+
+# Scratchpad & Personal Notes
+notes/
+
+# Windows Batch Launchers
+*.bat
