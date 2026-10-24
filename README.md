@@ -8,9 +8,9 @@
 
 ## 📌 Overview
 
-This repository is a structured, production-grade learning archive containing day-by-day practical implementations, tutorial notebooks, and assignment solutions from the **Apna College Prime: AI/ML Batch**.
+This repository is a structured, production-grade learning archive containing modular practical implementations, tutorial notebooks, and assignment solutions from the **Apna College Prime: AI/ML Batch**.
 
-Every lecture is isolated into dedicated Jupyter notebooks featuring:
+Every topic is isolated into dedicated modules featuring:
 1. **Mathematical & theoretical foundations** explained directly above each concept.
 2. **Clean, documented Python implementations** directly underneath the explanations.
 3. **Full assignment worksheets** with verified solutions.
@@ -22,16 +22,16 @@ Every lecture is isolated into dedicated Jupyter notebooks featuring:
 ```text
 Ai_Ml_Learning/
 ├── notebooks/
-│   ├── day1/
+│   ├── python_fundamentals_part1/
 │   │   ├── lec_1_python_fundamentals_part1.ipynb    # Print, Input, Variables, Data Types & Operators
 │   │   └── assignment_1_python_fundamentals.ipynb   # 10 Solved Assignment 1 Problems
-│   ├── day2/
+│   ├── python_fundamentals_part2/
 │   │   ├── lec_2_python_fundamentals_part2.ipynb    # Conditionals, Loops, Controls, Range & Functions
 │   │   └── assignment_2_python_fundamentals.ipynb   # 10 Solved Assignment 2 Problems
-│   ├── day3/
+│   ├── python_fundamentals_part3/
 │   │   ├── lec_3_python_fundamentals_part3.ipynb    # Strings, Lists, Tuples, Dictionaries & Sets
 │   │   └── assignment_3_python_fundamentals.ipynb   # 10 Solved Assignment 3 Problems
-│   └── ...                                          # Future day-wise lecture notebooks
+│   └── ...                                          # Future topic notebooks (NumPy, Pandas, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
 ├── .gitignore                                       # Git ignore rules for checkpoints, virtualenvs, and system files
@@ -80,16 +80,15 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 
 ## 📈 Learning Syllabus & Milestones
 
-| Day / Module | Lecture Topics | Status | Notebook Links |
+| Module / Topic | Lecture Topics | Status | Notebook Links |
 | :--- | :--- | :---: | :--- |
-| **Day 1: Part 1** | Python Fundamentals (Input/Output, Types, Operators) | ✅ Completed | [`lec_1_python_fundamentals_part1.ipynb`](notebooks/day1/lec_1_python_fundamentals_part1.ipynb) |
-| **Day 1: Assign** | Assignment 1 (10 Practical Problems Solved) | ✅ Completed | [`assignment_1_python_fundamentals.ipynb`](notebooks/day1/assignment_1_python_fundamentals.ipynb) |
-| **Day 2: Part 2** | Conditionals, Loops, Controls, Range & Functions | ✅ Completed | [`lec_2_python_fundamentals_part2.ipynb`](notebooks/day2/lec_2_python_fundamentals_part2.ipynb) |
-| **Day 2: Assign** | Assignment 2 (10 Logic & Function Problems Solved) | ✅ Completed | [`assignment_2_python_fundamentals.ipynb`](notebooks/day2/assignment_2_python_fundamentals.ipynb) |
-| **Day 3: Part 3** | Data Structures: Strings, Lists, Tuples, Dicts & Sets | ✅ Completed | [`lec_3_python_fundamentals_part3.ipynb`](notebooks/day3/lec_3_python_fundamentals_part3.ipynb) |
-| **Day 3: Assign** | Assignment 3 (10 Data Structure Problems Solved) | ✅ Completed | [`assignment_3_python_fundamentals.ipynb`](notebooks/day3/assignment_3_python_fundamentals.ipynb) |
-| **Day 4+** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/day4/` |
-| **Day 5+** | Pandas DataFrames & Exploratory Data Analysis (EDA) | ⏳ Upcoming | `notebooks/day5/` |
+| **Python Fundamentals (Part 1)** | Core Syntax, I/O, Data Types & Operators | ✅ Completed | [`lec_1_python_fundamentals_part1.ipynb`](notebooks/python_fundamentals_part1/lec_1_python_fundamentals_part1.ipynb) |
+| **Python Fundamentals (Assignment 1)** | 10 Practical Problems Solved | ✅ Completed | [`assignment_1_python_fundamentals.ipynb`](notebooks/python_fundamentals_part1/assignment_1_python_fundamentals.ipynb) |
+| **Python Fundamentals (Part 2)** | Conditionals, Loops, Controls, Range & Functions | ✅ Completed | [`lec_2_python_fundamentals_part2.ipynb`](notebooks/python_fundamentals_part2/lec_2_python_fundamentals_part2.ipynb) |
+| **Python Fundamentals (Assignment 2)** | 10 Logic & Function Problems Solved | ✅ Completed | [`assignment_2_python_fundamentals.ipynb`](notebooks/python_fundamentals_part2/assignment_2_python_fundamentals.ipynb) |
+| **Python Fundamentals (Part 3)** | Data Structures: Strings, Lists, Tuples, Dicts & Sets | ✅ Completed | [`lec_3_python_fundamentals_part3.ipynb`](notebooks/python_fundamentals_part3/lec_3_python_fundamentals_part3.ipynb) |
+| **Python Fundamentals (Assignment 3)** | 10 Data Structure Problems Solved | ✅ Completed | [`assignment_3_python_fundamentals.ipynb`](notebooks/python_fundamentals_part3/assignment_3_python_fundamentals.ipynb) |
+| **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
 
