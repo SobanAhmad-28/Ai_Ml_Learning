@@ -26,8 +26,11 @@ Ai_Ml_Learning/
 │   │   ├── lec_1_python_fundamentals_part1.ipynb    # Print, Input, Variables, Data Types & Operators
 │   │   └── assignment_1_python_fundamentals.ipynb   # 10 Solved Assignment 1 Problems
 │   ├── day2/
-│   │   ├── lec_2_python_fundamentals_part2.ipynb    # Conditionals, Loops, Range & Functions
+│   │   ├── lec_2_python_fundamentals_part2.ipynb    # Conditionals, Loops, Controls, Range & Functions
 │   │   └── assignment_2_python_fundamentals.ipynb   # 10 Solved Assignment 2 Problems
+│   ├── day3/
+│   │   ├── lec_3_python_fundamentals_part3.ipynb    # Strings, Lists, Tuples, Dictionaries & Sets
+│   │   └── assignment_3_python_fundamentals.ipynb   # 10 Solved Assignment 3 Problems
 │   └── ...                                          # Future day-wise lecture notebooks
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
@@ -83,8 +86,10 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **Day 1: Assign** | Assignment 1 (10 Practical Problems Solved) | ✅ Completed | [`assignment_1_python_fundamentals.ipynb`](notebooks/day1/assignment_1_python_fundamentals.ipynb) |
 | **Day 2: Part 2** | Conditionals, Loops, Controls, Range & Functions | ✅ Completed | [`lec_2_python_fundamentals_part2.ipynb`](notebooks/day2/lec_2_python_fundamentals_part2.ipynb) |
 | **Day 2: Assign** | Assignment 2 (10 Logic & Function Problems Solved) | ✅ Completed | [`assignment_2_python_fundamentals.ipynb`](notebooks/day2/assignment_2_python_fundamentals.ipynb) |
-| **Day 3+** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/day3/` |
-| **Day 4+** | Pandas DataFrames & Exploratory Data Analysis (EDA) | ⏳ Upcoming | `notebooks/day4/` |
+| **Day 3: Part 3** | Data Structures: Strings, Lists, Tuples, Dicts & Sets | ✅ Completed | [`lec_3_python_fundamentals_part3.ipynb`](notebooks/day3/lec_3_python_fundamentals_part3.ipynb) |
+| **Day 3: Assign** | Assignment 3 (10 Data Structure Problems Solved) | ✅ Completed | [`assignment_3_python_fundamentals.ipynb`](notebooks/day3/assignment_3_python_fundamentals.ipynb) |
+| **Day 4+** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/day4/` |
+| **Day 5+** | Pandas DataFrames & Exploratory Data Analysis (EDA) | ⏳ Upcoming | `notebooks/day5/` |
 
 ---
 
