@@ -11,7 +11,7 @@
 This repository is a structured, production-grade learning archive containing modular practical implementations, tutorial notebooks, and assignment solutions from the **Apna College Prime: AI/ML Batch**.
 
 Every topic is isolated into dedicated modules featuring:
-1. **Mathematical & theoretical foundations** explained directly above each concept.
+1. **Mathematical & theoretical foundations** explained in clear, intuitive Hinglish directly above each concept.
 2. **Clean, documented Python implementations** directly underneath the explanations.
 3. **Full assignment worksheets** with verified solutions.
 
@@ -31,6 +31,9 @@ Ai_Ml_Learning/
 │   ├── python_fundamentals_part3/
 │   │   ├── lec_3_python_fundamentals_part3.ipynb    # Strings, Lists, Tuples, Dictionaries & Sets
 │   │   └── assignment_3_python_fundamentals.ipynb   # 10 Solved Assignment 3 Problems
+│   ├── python_fundamentals_part4/
+│   │   ├── lec_4_python_fundamentals_part4.ipynb    # OOPs: Classes, Objects, Constructors & 4 Pillars
+│   │   └── assignment_4_python_fundamentals.ipynb   # 10 Solved OOP Problems & Chat Mini-Project
 │   └── ...                                          # Future topic notebooks (NumPy, Pandas, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
@@ -88,6 +91,8 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **Python Fundamentals (Assignment 2)** | 10 Logic & Function Problems Solved | ✅ Completed | [`assignment_2_python_fundamentals.ipynb`](notebooks/python_fundamentals_part2/assignment_2_python_fundamentals.ipynb) |
 | **Python Fundamentals (Part 3)** | Data Structures: Strings, Lists, Tuples, Dicts & Sets | ✅ Completed | [`lec_3_python_fundamentals_part3.ipynb`](notebooks/python_fundamentals_part3/lec_3_python_fundamentals_part3.ipynb) |
 | **Python Fundamentals (Assignment 3)** | 10 Data Structure Problems Solved | ✅ Completed | [`assignment_3_python_fundamentals.ipynb`](notebooks/python_fundamentals_part3/assignment_3_python_fundamentals.ipynb) |
+| **Python Fundamentals (Part 4)** | OOP: Classes, Objects, Constructors & 4 Pillars | ✅ Completed | [`lec_4_python_fundamentals_part4.ipynb`](notebooks/python_fundamentals_part4/lec_4_python_fundamentals_part4.ipynb) |
+| **Python Fundamentals (Assignment 4)** | 10 OOP Problems & Chat System Mini-Project | ✅ Completed | [`assignment_4_python_fundamentals.ipynb`](notebooks/python_fundamentals_part4/assignment_4_python_fundamentals.ipynb) |
 | **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
