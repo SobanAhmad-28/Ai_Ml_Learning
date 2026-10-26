@@ -130,5 +130,5 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 ## 👤 Author
 
 - **Soban Ahmad**  
-- LinkedIn: [@SobanAhmad-28]((https://www.linkedin.com/in/soban-ahmad-w))  
+- LinkedIn: [@SobanAhmad-28](https://www.linkedin.com/in/soban-ahmad-w)  
 - Focus: AI/ML Engineering & Data Science
