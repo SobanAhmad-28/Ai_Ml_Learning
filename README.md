@@ -40,7 +40,15 @@ Ai_Ml_Learning/
 │   ├── numpy_fundamentals/
 │   │   ├── lec_1_numpy_fundamentals.ipynb           # ndarray, Memory, Reshape, Indexing, Axes, Broadcasting & Math
 │   │   └── practice_numpy_fundamentals.ipynb        # 5 Solved Exercises (Downcasting, Z-Score, Softmax Argmax)
-│   └── ...                                          # Future topic notebooks (Pandas, Matplotlib, etc.)
+│   ├── pandas_part1/
+│   │   ├── lec_1_pandas_fundamentals.ipynb          # Series, DataFrame, loc/iloc, Filtering, Query & Data Cleaning
+│   │   ├── practice_pandas_part1.ipynb              # 5 Hands-on Wrangling & Imputation Pipeline Exercises
+│   │   ├── employee_data.csv                        # Clean sample employee dataset
+│   │   └── raw_data.csv                             # Dirty raw dataset with missing values & duplicates
+│   ├── pandas_part2/
+│   │   ├── lec_2_pandas_advanced.ipynb              # Transformation, GroupBy, Melt/Pivot, Joins, Concat & Plots
+│   │   └── assignment_pandas_part2.ipynb            # Solved IRIS Flower & Titanic Passenger EDA Problems
+│   └── ...                                          # Future topic notebooks (Matplotlib, Seaborn, ML, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
 ├── .gitignore                                       # Git ignore rules for checkpoints, virtualenvs, and system files
@@ -103,6 +111,10 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **Python Fundamentals (Assignment 5)** | 5 File & Exception Handling Problems Solved | ✅ Completed | [`assignment_5_python_fundamentals.ipynb`](notebooks/python_fundamentals_part5/assignment_5_python_fundamentals.ipynb) |
 | **NumPy Fundamentals (Masterclass)** | ndarray, Memory Architecture, Reshaping, Axes, Slicing & Broadcasting | ✅ Completed | [`lec_1_numpy_fundamentals.ipynb`](notebooks/numpy_fundamentals/lec_1_numpy_fundamentals.ipynb) |
 | **NumPy Fundamentals (Practice & Assignment)** | 5 Practical Exercises (Downcasting, Z-Score Scaling, Argmax) | ✅ Completed | [`practice_numpy_fundamentals.ipynb`](notebooks/numpy_fundamentals/practice_numpy_fundamentals.ipynb) |
+| **Pandas (Part 1: Fundamentals & Cleaning)** | Series, DataFrames, `loc`/`iloc`, Query, Missing Values & String Cleaning | ✅ Completed | [`lec_1_pandas_fundamentals.ipynb`](notebooks/pandas_part1/lec_1_pandas_fundamentals.ipynb) |
+| **Pandas (Part 1: Practice Exercises)** | 5 Data Wrangling & Production Imputation Pipeline Exercises | ✅ Completed | [`practice_pandas_part1.ipynb`](notebooks/pandas_part1/practice_pandas_part1.ipynb) |
+| **Pandas (Part 2: Advanced Transformations)** | Transformations, GroupBy Aggregations, Melt/Pivot, Joins, Concat & Plots | ✅ Completed | [`lec_2_pandas_advanced.ipynb`](notebooks/pandas_part2/lec_2_pandas_advanced.ipynb) |
+| **Pandas (Part 2: Solved Assignments)** | Iris Flower & Titanic Passenger EDA Analysis Solved | ✅ Completed | [`assignment_pandas_part2.ipynb`](notebooks/pandas_part2/assignment_pandas_part2.ipynb) |
 | **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
