@@ -57,7 +57,13 @@ Ai_Ml_Learning/
 │   │   ├── lec_1_data_collection_and_web_scraping.ipynb  # HTML, Requests, REST APIs, JSON Normalization, BeautifulSoup & CSV Pipeline
 │   │   ├── practice_web_scraping_and_apis.ipynb     # 5 Solved Hands-on Exercises (API, Tables, Links, Rate Limiting, Catalog)
 │   │   └── Web_Scraping_Reference.pdf               # Quick Reference Guide for Web Scraping
-│   └── ...                                          # Future topic notebooks (Matplotlib, Seaborn, ML, etc.)
+│   ├── data_visualization/
+│   │   ├── lec_1_matplotlib_fundamentals.ipynb      # Line, Grouped Bar, Horizontal, Colormaps, Pie Explode & Subplots
+│   │   ├── lec_2_seaborn_statistical_visualization.ipynb # Themes, Relational, Categorical, Boxplots, Outliers & Heatmaps
+│   │   ├── assignment_data_visualization.ipynb      # 5 Solved Comprehensive Assignment Problems (Penguins, Tips, Normal Dist)
+│   │   ├── Matplotlib_Reference.pdf                 # Matplotlib CheatSheet & Reference Notes
+│   │   └── Seaborn_Reference.pdf                    # Seaborn Statistical Visualization Notes
+│   └── ...                                          # Future topic notebooks (Machine Learning, Scikit-Learn, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
 ├── .gitignore                                       # Git ignore rules for checkpoints, virtualenvs, and system files
@@ -129,6 +135,9 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **SQL Script (Raw Database File)** | Executable MySQL Script for Table Setup & Queries | ✅ Completed | [`Sql_Assignment.sql`](notebooks/sql_fundamentals/Sql_Assignment.sql) |
 | **Data Collection & Web Scraping (Masterclass)** | HTML Basics, HTTP Requests, REST APIs, JSON Normalization, BeautifulSoup & CSV Export | ✅ Completed | [`lec_1_data_collection_and_web_scraping.ipynb`](notebooks/data_collection_web_scraping/lec_1_data_collection_and_web_scraping.ipynb) |
 | **Data Collection & Scraping (Practice)** | 5 Solved Exercises (Public APIs, HTML Table Extraction, Hyperlinks, E-Commerce Catalog) | ✅ Completed | [`practice_web_scraping_and_apis.ipynb`](notebooks/data_collection_web_scraping/practice_web_scraping_and_apis.ipynb) |
+| **Data Visualization (Matplotlib Masterclass)** | Line Plots, Grouped & Horizontal Bars, Scatter Colormaps, Pie Charts & Subplots | ✅ Completed | [`lec_1_matplotlib_fundamentals.ipynb`](notebooks/data_visualization/lec_1_matplotlib_fundamentals.ipynb) |
+| **Data Visualization (Seaborn Masterclass)** | Themes, Relplot, Categorical Boxplots, Outliers, Histograms & Heatmaps | ✅ Completed | [`lec_2_seaborn_statistical_visualization.ipynb`](notebooks/data_visualization/lec_2_seaborn_statistical_visualization.ipynb) |
+| **Data Visualization (Solved Assignment)** | 5 Solved Visual & Statistical Problems (Penguins, Tips Outliers, Bell Curve, Heatmap) | ✅ Completed | [`assignment_data_visualization.ipynb`](notebooks/data_visualization/assignment_data_visualization.ipynb) |
 | **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
