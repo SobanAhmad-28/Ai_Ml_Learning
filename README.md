@@ -34,6 +34,9 @@ Ai_Ml_Learning/
 │   ├── python_fundamentals_part4/
 │   │   ├── lec_4_python_fundamentals_part4.ipynb    # OOPs: Classes, Objects, Constructors & 4 Pillars
 │   │   └── assignment_4_python_fundamentals.ipynb   # 10 Solved OOP Problems & Chat Mini-Project
+│   ├── python_fundamentals_part5/
+│   │   ├── lec_5_python_fundamentals_part5.ipynb    # File I/O, Exceptions, List Comprehensions & JSON
+│   │   └── assignment_5_python_fundamentals.ipynb   # 5 Solved File & Exception Handling Problems
 │   └── ...                                          # Future topic notebooks (NumPy, Pandas, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
@@ -93,6 +96,8 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **Python Fundamentals (Assignment 3)** | 10 Data Structure Problems Solved | ✅ Completed | [`assignment_3_python_fundamentals.ipynb`](notebooks/python_fundamentals_part3/assignment_3_python_fundamentals.ipynb) |
 | **Python Fundamentals (Part 4)** | OOP: Classes, Objects, Constructors & 4 Pillars | ✅ Completed | [`lec_4_python_fundamentals_part4.ipynb`](notebooks/python_fundamentals_part4/lec_4_python_fundamentals_part4.ipynb) |
 | **Python Fundamentals (Assignment 4)** | 10 OOP Problems & Chat System Mini-Project | ✅ Completed | [`assignment_4_python_fundamentals.ipynb`](notebooks/python_fundamentals_part4/assignment_4_python_fundamentals.ipynb) |
+| **Python Fundamentals (Part 5)** | File I/O, Exceptions, List Comprehensions & JSON | ✅ Completed | [`lec_5_python_fundamentals_part5.ipynb`](notebooks/python_fundamentals_part5/lec_5_python_fundamentals_part5.ipynb) |
+| **Python Fundamentals (Assignment 5)** | 5 File & Exception Handling Problems Solved | ✅ Completed | [`assignment_5_python_fundamentals.ipynb`](notebooks/python_fundamentals_part5/assignment_5_python_fundamentals.ipynb) |
 | **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
