@@ -37,7 +37,10 @@ Ai_Ml_Learning/
 │   ├── python_fundamentals_part5/
 │   │   ├── lec_5_python_fundamentals_part5.ipynb    # File I/O, Exceptions, List Comprehensions & JSON
 │   │   └── assignment_5_python_fundamentals.ipynb   # 5 Solved File & Exception Handling Problems
-│   └── ...                                          # Future topic notebooks (NumPy, Pandas, etc.)
+│   ├── numpy_fundamentals/
+│   │   ├── lec_1_numpy_fundamentals.ipynb           # ndarray, Memory, Reshape, Indexing, Axes, Broadcasting & Math
+│   │   └── practice_numpy_fundamentals.ipynb        # 5 Solved Exercises (Downcasting, Z-Score, Softmax Argmax)
+│   └── ...                                          # Future topic notebooks (Pandas, Matplotlib, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
 ├── .gitignore                                       # Git ignore rules for checkpoints, virtualenvs, and system files
@@ -98,6 +101,8 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **Python Fundamentals (Assignment 4)** | 10 OOP Problems & Chat System Mini-Project | ✅ Completed | [`assignment_4_python_fundamentals.ipynb`](notebooks/python_fundamentals_part4/assignment_4_python_fundamentals.ipynb) |
 | **Python Fundamentals (Part 5)** | File I/O, Exceptions, List Comprehensions & JSON | ✅ Completed | [`lec_5_python_fundamentals_part5.ipynb`](notebooks/python_fundamentals_part5/lec_5_python_fundamentals_part5.ipynb) |
 | **Python Fundamentals (Assignment 5)** | 5 File & Exception Handling Problems Solved | ✅ Completed | [`assignment_5_python_fundamentals.ipynb`](notebooks/python_fundamentals_part5/assignment_5_python_fundamentals.ipynb) |
+| **NumPy Fundamentals (Masterclass)** | ndarray, Memory Architecture, Reshaping, Axes, Slicing & Broadcasting | ✅ Completed | [`lec_1_numpy_fundamentals.ipynb`](notebooks/numpy_fundamentals/lec_1_numpy_fundamentals.ipynb) |
+| **NumPy Fundamentals (Practice & Assignment)** | 5 Practical Exercises (Downcasting, Z-Score Scaling, Argmax) | ✅ Completed | [`practice_numpy_fundamentals.ipynb`](notebooks/numpy_fundamentals/practice_numpy_fundamentals.ipynb) |
 | **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
