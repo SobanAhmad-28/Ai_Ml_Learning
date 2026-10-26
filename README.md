@@ -150,3 +150,14 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 - **Soban Ahmad**  
 - LinkedIn: [@SobanAhmad-28](https://www.linkedin.com/in/soban-ahmad-w)  
 - Focus: AI/ML Engineering & Data Science
+
+---
+
+### 🔢 Phase 6: Mathematics for Machine Learning & AI (Day 20 - Day 22)
+> Complete foundation of Probability, Statistics, Linear Algebra, Coordinate Geometry, and Calculus with intuitive visual plots and Python implementations.
+
+| File / Topic | Concepts Covered | Key Python Tools |
+| :--- | :--- | :--- |
+| [`lec_1_probability_and_statistics.ipynb`](notebooks/maths_for_machine_learning/lec_1_probability_and_statistics.ipynb) | Sample Space, Addition & Multiplication Rules, Conditional Probability, Bayes' Theorem, Medical Test Paradox, Mean/Median Outlier Sensitivity, Variance/Std, PMF/PDF/CDF, Binomial, Uniform & Normal (Gaussian) 68-95-99.7 Bell Curve | `scipy.stats` (`norm`, `binom`), `numpy`, `matplotlib` |
+| [`lec_2_linear_algebra_and_geometry.ipynb`](notebooks/maths_for_machine_learning/lec_2_linear_algebra_and_geometry.ipynb) | Straight Lines ($y=mx+c$), Euclidean & Manhattan Distance, SVM Margins & Perpendicular Distance, Vectors, Head-to-Tail Addition, Dot Product, Cosine Similarity (Embeddings/LLM search), Matrix Multiplication ($W \cdot X + b$), Determinants, Eigenvalues & Eigenvectors ($Aec{v}=\lambdaec{v}$) | `numpy.linalg`, `matplotlib.quiver` |
+| [`lec_3_calculus_and_optimization.ipynb`](notebooks/maths_for_machine_learning/lec_3_calculus_and_optimization.ipynb) | Functions, Transformations & Shifting, Deep Learning Composite Functions ($f(g(x))$), Differentiation, Derivative Rules, The Chain Rule (Backpropagation Engine), Finding Minima & Maxima ($f'(x)=0, f''(x)>0$), Loss Function Minimization & Gradient Descent Intuition | `numpy`, `matplotlib` |
