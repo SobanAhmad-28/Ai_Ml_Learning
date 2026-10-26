@@ -48,6 +48,11 @@ Ai_Ml_Learning/
 │   ├── pandas_part2/
 │   │   ├── lec_2_pandas_advanced.ipynb              # Transformation, GroupBy, Melt/Pivot, Joins, Concat & Plots
 │   │   └── assignment_pandas_part2.ipynb            # Solved IRIS Flower & Titanic Passenger EDA Problems
+│   ├── sql_fundamentals/
+│   │   ├── lec_1_sql_fundamentals.ipynb             # DDL, DQL, DML, TCL, Joins, Group By, Having & Subqueries
+│   │   ├── assignment_sql_fundamentals.ipynb        # 10 Solved SQL Problems on Employee Schema (Interactive)
+│   │   ├── Sql_Assignment.sql                       # Clean MySQL Workbench / CLI Executable Script
+│   │   └── SQL_CheatSheet.pdf                       # Quick Reference Syntax CheatSheet
 │   └── ...                                          # Future topic notebooks (Matplotlib, Seaborn, ML, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
@@ -115,6 +120,9 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **Pandas (Part 1: Practice Exercises)** | 5 Data Wrangling & Production Imputation Pipeline Exercises | ✅ Completed | [`practice_pandas_part1.ipynb`](notebooks/pandas_part1/practice_pandas_part1.ipynb) |
 | **Pandas (Part 2: Advanced Transformations)** | Transformations, GroupBy Aggregations, Melt/Pivot, Joins, Concat & Plots | ✅ Completed | [`lec_2_pandas_advanced.ipynb`](notebooks/pandas_part2/lec_2_pandas_advanced.ipynb) |
 | **Pandas (Part 2: Solved Assignments)** | Iris Flower & Titanic Passenger EDA Analysis Solved | ✅ Completed | [`assignment_pandas_part2.ipynb`](notebooks/pandas_part2/assignment_pandas_part2.ipynb) |
+| **SQL Fundamentals (Masterclass)** | DDL, DQL, DML, TCL, Joins (Inner, Left, Self), Group By, Having & Subqueries | ✅ Completed | [`lec_1_sql_fundamentals.ipynb`](notebooks/sql_fundamentals/lec_1_sql_fundamentals.ipynb) |
+| **SQL Fundamentals (Solved Assignment)** | 10 Solved Employee Schema Problems from Hand-Written Assignment | ✅ Completed | [`assignment_sql_fundamentals.ipynb`](notebooks/sql_fundamentals/assignment_sql_fundamentals.ipynb) |
+| **SQL Script (Raw Database File)** | Executable MySQL Script for Table Setup & Queries | ✅ Completed | [`Sql_Assignment.sql`](notebooks/sql_fundamentals/Sql_Assignment.sql) |
 | **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
