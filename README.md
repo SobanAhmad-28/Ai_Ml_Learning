@@ -53,6 +53,10 @@ Ai_Ml_Learning/
 │   │   ├── assignment_sql_fundamentals.ipynb        # 10 Solved SQL Problems on Employee Schema (Interactive)
 │   │   ├── Sql_Assignment.sql                       # Clean MySQL Workbench / CLI Executable Script
 │   │   └── SQL_CheatSheet.pdf                       # Quick Reference Syntax CheatSheet
+│   ├── data_collection_web_scraping/
+│   │   ├── lec_1_data_collection_and_web_scraping.ipynb  # HTML, Requests, REST APIs, JSON Normalization, BeautifulSoup & CSV Pipeline
+│   │   ├── practice_web_scraping_and_apis.ipynb     # 5 Solved Hands-on Exercises (API, Tables, Links, Rate Limiting, Catalog)
+│   │   └── Web_Scraping_Reference.pdf               # Quick Reference Guide for Web Scraping
 │   └── ...                                          # Future topic notebooks (Matplotlib, Seaborn, ML, etc.)
 ├── scripts/
 │   └── sync.ps1                                     # 1-click Git sync automation script
@@ -123,6 +127,8 @@ powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 | **SQL Fundamentals (Masterclass)** | DDL, DQL, DML, TCL, Joins (Inner, Left, Self), Group By, Having & Subqueries | ✅ Completed | [`lec_1_sql_fundamentals.ipynb`](notebooks/sql_fundamentals/lec_1_sql_fundamentals.ipynb) |
 | **SQL Fundamentals (Solved Assignment)** | 10 Solved Employee Schema Problems from Hand-Written Assignment | ✅ Completed | [`assignment_sql_fundamentals.ipynb`](notebooks/sql_fundamentals/assignment_sql_fundamentals.ipynb) |
 | **SQL Script (Raw Database File)** | Executable MySQL Script for Table Setup & Queries | ✅ Completed | [`Sql_Assignment.sql`](notebooks/sql_fundamentals/Sql_Assignment.sql) |
+| **Data Collection & Web Scraping (Masterclass)** | HTML Basics, HTTP Requests, REST APIs, JSON Normalization, BeautifulSoup & CSV Export | ✅ Completed | [`lec_1_data_collection_and_web_scraping.ipynb`](notebooks/data_collection_web_scraping/lec_1_data_collection_and_web_scraping.ipynb) |
+| **Data Collection & Scraping (Practice)** | 5 Solved Exercises (Public APIs, HTML Table Extraction, Hyperlinks, E-Commerce Catalog) | ✅ Completed | [`practice_web_scraping_and_apis.ipynb`](notebooks/data_collection_web_scraping/practice_web_scraping_and_apis.ipynb) |
 | **Upcoming Modules** | NumPy Vectorization & Array Operations | ⏳ Upcoming | `notebooks/numpy/` |
 
 ---
