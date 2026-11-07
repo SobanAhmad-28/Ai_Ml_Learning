@@ -1,0 +1,11 @@
+ID,Name,Department,Age,Base_Salary,Salary_Rank
+10,Julia,Finance,30,60000,6
+6,Frank,Finance,29,50000,8
+3,Charlie,Finance,28,48000,9
+7,Grace,HR,41,82000,2
+1,Alice,HR,25,55000,7
+9,Ian,IT,35,75000,3
+2,Bob,IT,32,72000,4
+5,Eva,IT,38,65000,5
+4,David,Marketing,45,91000,1
+8,Hannah,Marketing,26,47000,10
